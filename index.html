@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Website of CarsInc, a car and spare parts sale company">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="styles.css">
+	<title>Car Sales Website</title>
+</head>
+<body>
+
+	<!-- Header -->
+	<header class="header">
+		<nav class="nav container">
+			<i class="fas fa-bars" id="menu-icon"></i>
+
+			<a href="#" class="logo"><span>Cars</span>Inc</a>
+
+			<ul class="nav__links">
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#cars">Cars</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#parts">Parts</a></li>
+				<li><a href="#blog">Our Blog</a></li>
+			</ul>
+
+			<i class="fas fa-search" id="search-icon"></i>
+
+			<!-- Search box -->
+			<div class="search__box container">
+				<input type="search" id="search" placeholder="Search here...">
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		
+		<!-- Home section -->
+		<section class="home" id="home">
+			<div class="home__text">
+				<h1>We Have Everything <br> Your <span>Car</span> Needs</h1>
+				<p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing, elit. Architecto, atque maxime ea.</p>
+				<a href="#" class="btn">Discover Now</a>
+			</div>
+		</section>
+
+		<!-- Cars section -->
+		<section class="cars" id="cars">
+			<div class="heading">
+				<span>All Cars</span>
+				<h2>We have your favorite types of cars</h2>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ipsum!</p>
+			</div>
+
+            <!-- Cars container -->
+			<div class="cars__container container">
+				<!-- Box 1 -->
+				<div class="box">
+					<img src="images/porsche.jpg" alt="Porsche car">
+					<h3>Porsche</h3>
+				</div>
+
+				<!-- Box 2 -->
+				<div class="box">
+					<img src="images/audi.jpg" alt="Audi car">
+					<h3>Audi</h3>
+				</div>
+
+				<!-- Box 3 -->
+				<div class="box">
+					<img src="images/benz.jpg" alt="Mercedes Benz car">
+					<h3>Mercedes Benz</h3>
+				</div>
+
+				<!-- Box 4 -->
+				<div class="box">
+					<img src="images/lambo.jpg" alt="Lamborghini car">
+					<h3>Lamborghini</h3>
+				</div>
+
+				<!-- Box 5 -->
+				<div class="box">
+					<img src="images/bmw.jpg" alt="BMW car">
+					<h3>BMW</h3>
+				</div>
+
+				<!-- Box 6 -->
+				<div class="box">
+					<img src="images/rollsroyce.jpg" alt="Rolls Royce car">
+					<h3>Rolls Royce</h3>
+				</div>
+			</div>
+		</section>
+
+		<!-- About section -->
+		<section class="about container" id="about">
+			<div class="about__img">
+				<img src="images/about.png" alt="Rolls Royce car">
+			</div>
+			<div class="about__text">
+				<span>About Us</span>
+				<h2>Get Quality Cars <br>At Cheap Prices</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni officia, velit perferendis.</p>
+
+				<a href="#" class="btn">Learn More</a>
+			</div>
+		</section>
+
+		<!-- Parts section -->
+		<section class="parts" id="parts">
+			<div class="heading">
+				<span>What We Offer</span>
+				<h2>Our Cars Are Always Excellent</h2>
+				<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quidem, autem accusantium harum?</p>
+			</div>
+
+			<!-- Parts container -->
+			<div class="parts__container container">
+				<!-- Box 1 -->
+				<div class="box">
+					<img src="images/part1.png" alt="car part">
+					<h3>Engine</h3>
+					<span class="price">$239.99</span>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<span>(8 Reviews)</span>
+					</div>
+					<div class="buttons">
+						<a href="#" class="btn">Buy Now</a>
+					    <a href="#" class="details">View Details</a>
+					</div>
+					
+				</div>
+
+				<!-- Box 2 -->
+				<div class="box">
+					<img src="images/part2.png" alt="car part">
+					<h3>Transmission</h3>
+					<span class="price">$155.99</span>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<span>(8 Reviews)</span>
+					</div>
+					<div class="buttons">
+						<a href="#" class="btn">Buy Now</a>
+					    <a href="#" class="details">View Details</a>
+					</div>
+				</div>
+
+				<!-- Box 3 -->
+				<div class="box">
+					<img src="images/part3.png" alt="car part">
+					<h3>Auto Spare Parts</h3>
+					<span class="price">$125.99</span>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<span>(8 Reviews)</span>
+					</div>
+					<div class="buttons">
+						<a href="#" class="btn">Buy Now</a>
+					    <a href="#" class="details">View Details</a>
+					</div>
+				</div>
+
+				<!-- Box 4 -->
+				<div class="box">
+					<img src="images/part4.png" alt="car part">
+					<h3>Auto Spare Parts</h3>
+					<span class="price">$125.99</span>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<span>(8 Reviews)</span>
+					</div>
+					<div class="buttons">
+						<a href="#" class="btn">Buy Now</a>
+					    <a href="#" class="details">View Details</a>
+					</div>
+				</div>
+
+				<!-- Box 5 -->
+				<div class="box">
+					<img src="images/part5.png" alt="car part">
+					<h3>Auto Spare Parts</h3>
+					<span class="price">$125.99</span>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<span>(8 Reviews)</span>
+					</div>
+					<div class="buttons">
+						<a href="#" class="btn">Buy Now</a>
+					    <a href="#" class="details">View Details</a>
+					</div>
+				</div>
+
+				<!-- Box 6 -->
+				<div class="box">
+					<img src="images/part6.png" alt="car part">
+					<h3>Tyres</h3>
+					<span class="price">$79.99</span>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<span>(8 Reviews)</span>
+					</div>
+					<div class="buttons">
+						<a href="#" class="btn">Buy Now</a>
+					    <a href="#" class="details">View Details</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Blog section -->
+		<section class="blog" id="blog">
+			<div class="heading">
+				<span>Blog & News</span>
+				<h2>Our Blog Content</h2>
+				<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quidem, autem accusantium harum?</p>
+			</div>
+
+			<!-- Blog Container -->
+			<div class="blog__container container">
+				<!-- Blog Post 1 -->
+				<div class="box">
+					<img src="images/car4.jpg" alt="car">
+					<span>Feb 23 2021</span>
+					<h3>How to Get a Perfect Car At a Low Price</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Saepe quam laudantium culpa mollitia asperiores hic harum aut fugit?</p>
+					<a href="#" class="blog-btn">Read More <i class="fas fa-chevron-right"></i></a>
+				</div>
+
+				<!-- Blog Post 2 -->
+				<div class="box">
+					<img src="images/car6.jpg" alt="car">
+					<span>Mar 18 2021</span>
+					<h3>How to Get a Perfect Car At a Low Price</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Saepe quam laudantium culpa mollitia asperiores hic harum aut fugit?</p>
+					<a href="#" class="blog-btn">Read More <i class="fas fa-chevron-right"></i></a>
+				</div>
+
+				<!-- Blog Post 3 -->
+				<div class="box">
+					<img src="images/car5.jpg" alt="car">
+					<span>May 03 2021</span>
+					<h3>How to Get a Perfect Car At a Low Price</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Saepe quam laudantium culpa mollitia asperiores hic harum aut fugit?</p>
+					<a href="#" class="blog-btn">Read More <i class="fas fa-chevron-right"></i></a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer__container container">
+			<div class="footer__box">
+				<a href="#" class="logo"><span>Cars</span>Inc</a>
+				<div class="social__links">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="footer__box footer__links">
+				<h3>Page</h3>
+				<a href="#home">Home</a>
+				<a href="#cars">Cars</a>
+				<a href="#about">About</a>
+				<a href="#parts">Parts</a>
+				<a href="#blog">Blog</a>
+			</div>
+			<div class="footer__box footer__links">
+				<h3>Legal</h3>
+				<a href="#">Privacy</a>
+				<a href="#">Refund Policy</a>
+				<a href="#">Cookie Policy</a>
+			</div>
+			<div class="footer__box footer__links">
+				<h3>Contact</h3>
+				<p>United States</p>
+				<p>Japan</p>
+				<p>Germany</p>
+			</div>
+		</div>
+		<p class="copyright">&copy; Ikenna. All Rights Reserved</p>
+	</footer>
+
+	
+
+
+	<script src="script.js"></script>
+</body>
+</html>
